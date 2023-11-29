@@ -1,17 +1,71 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+
+<ion-content>
+
+  <!-- 
+<ion-header class="top-bar">
+  <ion-toolbar class="language-section">
+    <ion-button id="spanish-button" fill="clear">
+      Español
+      <ion-icon slot="end" name="arrow-up"></ion-icon>
+    </ion-button>
+    <span id="presentation-text">Ver Presentación</span>
+
+
+    <ion-button id="fb-button" fill="clear">
+      <ion-icon slot="icon-only" name="logo-facebook"></ion-icon>
+    </ion-button>
+    <ion-button id="x-button" fill="clear">
+      <ion-icon slot="icon-only" name="logo-twitter"></ion-icon>
+    </ion-button>
+
   </ion-toolbar>
 </ion-header>
+-->
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-buttons slot="start"> <!-- Botones alineados a la izquierda -->
+        <ion-list class="languages">
+          <ion-item>
+            <ion-select aria-label="language" value="spanish">
+              <ion-select-option value="spanish">Español</ion-select-option>
+              <ion-select-option value="english">Inglés</ion-select-option>
+              <ion-select-option value="french">Francés</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+        <ion-button><span id="presentation-text">Ver Presentación</span>
+
+        </ion-button>
+      </ion-buttons>
+
+      <ion-buttons slot="end"> <!-- Botones alineados a la derecha -->
+        <ion-button id="fb-button" fill="clear">
+          <ion-icon slot="icon-only" name="logo-facebook" ></ion-icon>
+        </ion-button>
+        <ion-button id="x-button" fill="clear">
+          <ion-icon slot="icon-only" name="logo-twitter" ></ion-icon>
+        </ion-button>
+      </ion-buttons>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+
+
+  <ion-content class="content">
+    <ion-img id="main-image" src="assets/image/Esemtia.png" alt="Imagen Principal"></ion-img>
+    <div class="login-section">
+      <div id="login-box">
+        <ion-input label="Username input" labelPlacement="stacked" type="username" placeholder="Usuario">
+        </ion-input>
+
+        <hr class="divider">
+        <ion-input label="Password input" labelPlacement="stacked" type="password" placeholder="Contraseña">
+        </ion-input>
+      </div>
+      <ion-button id="access-button" expand="full" shape="round" (click)="navigateToTab2()">Acceder</ion-button>
+
+    </div>
+  </ion-content>
 </ion-content>

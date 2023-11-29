@@ -1,0 +1,134 @@
+ion-content {
+    --background: #02164A;
+}
+:root {
+    --ion-color-mi-color-personalizado: #FFA500; /* Cambia el valor al color que desees */
+}
+  
+ion-list{
+    --background: #02164A;
+    padding: 0;
+    
+}
+ion-item{
+    --background: #02164A;
+    --color:#FFF;
+}
+.language-section {
+    display: flex;
+    align-items: center;
+    color: #02164A;
+}
+
+#spanish-button {
+    --color: #FFF;
+    --border-width: 0;
+    --background: none;
+    cursor: pointer;
+    font: 400 10px "Lexend", sans-serif;
+    --margin-end: 10px;
+}
+
+#presentation-text {
+    font: 400 12px "Lexend", sans-serif;
+    color:#84AEFF;
+}
+
+#fb-button,
+#x-button {
+    --background: none;
+    --border-width: 0;
+    cursor: pointer;
+    --margin-start: 20%;
+    --color: #FFF;
+}
+
+#main-image {
+    display: block;
+    margin: 10% auto;
+    width: 10.5625rem;
+    height: 6.5625rem;
+}
+
+#login-box {
+    background-color: white;
+    
+    width: 70%;
+    padding: 20px;
+    text-align: left;
+    height: 100%;
+    flex-shrink: 0;
+
+    margin: 20px;
+    height: 40%;
+    border-radius: 20px;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 0;
+}
+
+label {
+    font-size: 18px;
+}
+
+ion-input {
+    width: 100%;
+    padding: 5px;
+    margin: 15px 0;
+    --border-width: 0;
+}
+
+#access-button {
+    --border-radius: 20px;
+    --background: #3A70DA;
+    color: white;
+    padding: 10px 20px;
+    --border-width: 0;
+    width: 200px;
+    height: 40px;
+    --flex-shrink: 0;
+    font: 400 14px "Lexend", sans-serif;
+    --margin-top: 10px;
+    cursor: pointer;
+}
+ion-toolbar{
+    --background: #02164A;
+}
+.top-bar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50%rem;
+    --flex-shrink: 0;
+    
+}
+
+.animal-buttons {
+    display: flex;
+    --padding-end: 10px;
+    width: 50px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.login-section {
+    --gap:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.divider {
+    border-width: 0;
+    border-top-width: 1px;
+    border-top-color: #e4e4e4db;
+    margin: 2px 1;
+}

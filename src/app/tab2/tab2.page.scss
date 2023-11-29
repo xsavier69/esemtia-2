@@ -1,0 +1,112 @@
+ion-toolbar {
+    --background: #3A70DA;
+    height: 7%;
+    align-items: center;
+}
+
+ion-menu-button {
+    --color: #fff;
+}
+
+.image-menu {
+    align-self: center;
+    margin: 20px;
+}
+
+#menu-button,
+#w-button,
+#mg-button {
+    --color: #fff;
+}
+
+#menu-button {
+    margin-right: 20px;
+}
+
+#tittle-text {
+    color: #fff;
+    font: 400 18px "Lexend", sans-serif;
+
+}
+
+.day-buttons-container {
+    width: 100%;
+
+}
+
+.days {
+    background-color: #84AEFF;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: auto;
+    padding-right: auto;
+    /* Centra verticalmente los elementos en la sección */
+}
+
+.boton-izquierdo,
+.boton-derecho {
+
+    justify-content: center;
+    align-items: center;
+    --background: #84AEFF;
+}
+
+.date {
+    --color: #fff;
+    font: 400 16px "Lexend", sans-serif;
+
+}
+
+.boton-central {
+    width: 80%;
+    height: auto;
+    --background: #84AEFF;
+}
+
+.left,
+.right {
+
+    color: #fff;
+
+}
+
+.hour {
+    width: 100%;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.69);
+    border-width: 0px 0px 1px 0px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.time {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #114cc0;
+    font: 400 20px "Lexend", sans-serif;
+
+}
+
+.information {
+    width: 60%;
+    padding: 2%;
+}
+
+.subject {
+    color: #4a4646;
+    font: 700 17px "Lexend", sans-serif;
+
+}
+
+.teacher {
+    color: #4a4646;
+    font: 400 16px "Lexend", sans-serif;
+
+}
